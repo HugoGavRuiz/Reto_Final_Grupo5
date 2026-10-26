@@ -1,7 +1,5 @@
 import os, psycopg
 
-DATABASE_URL = 
-
 url = os.getenv("DATABASE_URL")
 
 try:
