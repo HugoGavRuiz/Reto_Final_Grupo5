@@ -13,3 +13,5 @@ try:
     print("Base de datos conectada con éxito")
 except Exception as e:
     print("Error conectando a la base de datos:", e)
+
+query = " SELECT id, name, species from characters"
